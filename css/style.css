@@ -57,6 +57,9 @@ header {
 
 #hero {
 	height: 452px;
+	background-image: url(../images/background.png);
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 

@@ -134,9 +134,73 @@ header {
 
 #main {
 	height: 693px;
+	margin-top: -162px;
+	font-family: Arial, sans-serif;
+}
+
+#main .container > div {
+	padding: 30px;
+
+}
+
+#main img {
+	float: left;
+	padding: 6px;
+	border: 1px solid #c80808;
+	margin-right: 18px;
+
+}
+
+#main h1 {
+	font-size: 28px;
+	color: #3f3f3f;
+	font-weight: normal;
+}
+
+#main h2 {
+	font-size: 20px;
+	color: #3f3f3f;
+	font-weight: normal;
 }
 
 
+#main h1 span, #main h2 span {
+	color: #c80808;
+	font-weight: bold;
+}
+
+#main p {
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 1.6px;
+	text-align: justify;
+}
+
+.one-third {
+	box-sizing: border-box;
+	float: left;
+	width: 33.3333%;
+}
+
+.two-third {
+	box-sizing: border-box;
+	float: left;
+	width: 66.6666%;
+}
+
+.one-half {
+	box-sizing: border-box;
+	float: left;
+	width: 50%;
+}
+
+.first {
+	padding-right: 15px;
+}
+
+.last {
+	padding-left: 15px;
+}
 /*----------- FOOTER ------------- */
 footer {
 	height: 109px;

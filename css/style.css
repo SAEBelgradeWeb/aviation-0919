@@ -237,6 +237,8 @@ footer {
 	height: 109px;
 	background-color: #274f75;
 	border-top: 1px solid #c80808;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
 }
 
 footer a {
@@ -248,3 +250,35 @@ footer .social {
 	padding-top: 38px;
 }
 
+#footer-menu {
+	margin: 34px 0 0 184px;
+	padding: 0;
+	overflow: hidden;
+}
+
+#footer-menu li {
+	list-style: none;
+	float: left;
+
+}
+
+#footer-menu li a {
+	display: block;
+	color: #6a86a0;
+	border-right: 1px solid #6a86a0;
+	padding: 0px 10px;
+}
+
+#footer-menu li a.no-border {
+	border-right: none;
+}
+
+#footer-menu li a:hover {
+	color: white;
+}
+
+footer .two-third p {
+	text-align: right;
+	color: #6a86a0;
+	margin-right: 8px;
+}
